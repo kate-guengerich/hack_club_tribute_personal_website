@@ -1,0 +1,32 @@
+
+
+   body {
+       margin: 10%;
+       background-image: url("https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg");
+       background-color: #088dc2; /* Used if the image is unavailable */
+       height: 500px; /* You must set a specified height */
+       background-position: center; /* Center the image */
+       background-repeat: no-repeat; /* Do not repeat the image */
+       background-size: cover;
+   }
+
+
+   div.title {
+     text-align: center;
+     font-family: 'Shrikhand', sans-serif;
+     font-size: 50px;
+   }
+
+
+   div {
+     color: white;
+     background-color: rgba(20, 5, 69, 0.5);
+     transition: color 1s, background-color 1s;
+     margin: 2%;
+     padding: 2%;
+     text-align: left;
+     font-family: 'Quicksand', sans-serif;
+     font-size: 20px;
+   }
+
+
